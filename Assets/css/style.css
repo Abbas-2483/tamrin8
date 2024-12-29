@@ -1,0 +1,399 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+a
+{
+    color: black;
+}
+.basicBox
+{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+.mainBox
+{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+.topTitle
+{
+    top: 0;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    background-color: black;
+    height: 50px;
+    box-shadow: 0 5px 5px  rgba(75, 54, 33, 0.8) , 0 10px 10px rgba(75, 54, 33, 0.6) , 0 15px 15px rgba(75, 54, 33, 0.4)  ;
+}
+.firstClass
+{ 
+    height: calc(100vh - 50px);
+    background-image: url(/Assets/images/backFirstPage.avif);
+    /* background-blend-mode: overlay;
+    background:  url(/Assets/images/backFirstPage.avif) ,rgba(255, 255, 255, 0.384)  ; */
+}
+.firstPage
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 350px;
+    left: 400px;
+}
+.basicTitle
+{
+    color: white;
+    font-size: 45px;
+}
+.underTitle
+{
+    color: white;
+    font-size: 60px;
+}
+.contactImage
+{
+    display: flex;
+    justify-content: space-around;
+    width: 280px;
+}
+.contactImage img:nth-child(1) , .contactImage img:nth-child(2) , .contactImage img:nth-child(3) ,.contactImage img:nth-child(4)
+{
+    width: 40px;
+}
+.menu
+{
+    left: 30px;
+    top: 270px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+.selectMenu
+{
+    margin-top: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+    transition: all 1s;
+    overflow: hidden;
+}
+.near1
+{
+    position: relative;
+    font-size: 25px;
+    top: 20px;
+    left: 80px;
+}
+.near2
+{
+    position: relative;
+    font-size: 25px;
+    top: 20px;
+    left: 80px;
+}
+.near3
+{
+    position: relative;
+    font-size: 25px;
+    top: 20px;
+    left: 80px;
+}
+.near4
+{
+    position: relative;
+    font-size: 25px;
+    top: 20px;
+    left: 70px;
+}
+.selectMenu:hover
+{
+    background-color: rgb(114, 92, 92);
+    width: 180px;
+}
+.selectMenu:focus
+{
+    background-color: rgb(114, 92, 92);  
+}
+.menuImage1
+{
+    position: absolute;
+    top: 36px;
+    left: 9px;
+    width: 50px;
+}
+.menuImage2
+{
+    position: absolute;
+    top: 138px;
+    width: 50px;
+    left: 9px;
+}
+.menuImage3
+{
+    position: absolute;
+    top: 240px;
+    width: 50px;
+    left: 9px;
+}
+.menuImage4
+{
+    position: absolute;
+    top: 340px;
+    width: 50px;
+    left: 9px;
+}
+#two
+{
+    position: absolute;
+    bottom: 50px;
+}
+.seceodPage
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-image: url(/Assets/images/blackmyth_wukong_wallpaper_011.jpg);
+}
+.titlePage
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textTitlePage
+{
+    margin-top: 50px;
+    color: white;
+    font-size: 35px;
+}
+.border
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    width: 200px;
+    height: 5px;
+    background-color: white;
+}
+.borderColor
+{
+    width: 40%;
+    height: 5px;
+    background-color: rgb(114, 92, 92);
+}
+.textAbout1
+{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 70px;
+    width: 1300px;
+    color: white;
+}
+.textImage
+{
+    display: flex;
+    margin-top: 80px;
+    width: 1300px;
+    height: 400px;
+}
+.imageAbout
+{
+    vertical-align: text-top;
+    border-radius: 30px;
+    width: 400px;
+    height: 400px;
+    background-image: url(/Assets/images/imageAbout.jpg);
+    background-size: cover;
+    background-position-x: -155px;
+}
+.textAbout4
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.textAbout2
+{
+    margin-left: 50px;
+    color: white;
+    font-size: 30px;
+}
+.textAbout3
+{
+    margin-top: 70px;
+    margin-left: 50px;
+    color: white;
+    font-size: 25px;
+    width: 850px;
+}
+.thirdPage
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-image: url(/Assets/images/backpage3.jpg);
+}
+.awardBorder
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 1300px;
+    height: 600px;
+}
+.boxBorder
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: 45%;
+    height: 30%;
+}
+.namePercent
+{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.name
+{
+    font-size: 30px;
+    color: white;
+}
+.percent
+{
+    font-size: 30px;
+    color: white;
+}
+.borderEdge
+{
+    border-radius: 15px;
+    width: 500px;
+    height: 20px;
+    background-color: white;
+}
+.borderEdgeColor
+{
+    border-radius: 15px;
+}
+.awardBorder .boxBorder:nth-child(1) .borderEdgeColor
+{
+    height: 20px;
+    width: 83%;
+    background-color: rgb(114, 92, 92);
+}
+.awardBorder .boxBorder:nth-child(2) .borderEdgeColor
+{
+    height: 20px;
+    width: 90%;
+    background-color: rgb(114, 92, 92);
+}
+.awardBorder .boxBorder:nth-child(3) .borderEdgeColor
+{
+    height: 20px;
+    width: 80%;
+    background-color: rgb(114, 92, 92);
+}
+.awardBorder .boxBorder:nth-child(4) .borderEdgeColor
+{
+    height: 20px;
+    width: 100%;
+    background-color: rgb(114, 92, 92);
+}
+.awardBorder .boxBorder:nth-child(5) .borderEdgeColor
+{
+    height: 20px;
+    width: 95%;
+    background-color: rgb(114, 92, 92);
+}
+.awardBorder .boxBorder:nth-child(6) .borderEdgeColor
+{
+    height: 20px;
+    width: 95%;
+    background-color: rgb(114, 92, 92);
+}
+#three
+{
+    position: relative;
+    bottom: 50px;
+}
+.fourthPage
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-image: url(/Assets/images/backpage4.jpg);
+}
+.wallpaper
+{
+    height: 45%;
+    width: 45%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color: black;
+}
+.awardBorder .wallpaper:nth-child(1)
+{
+    background-image: url(/Assets/images/wallpaper1.jpg);
+    background-size: cover;
+    transition: all 2s;
+    border-radius: 15px;
+}
+.awardBorder .wallpaper:nth-child(1):hover
+{
+    transform: scale(1.5);
+}
+.awardBorder .wallpaper:nth-child(2)
+{
+    background-image: url(/Assets/images/wallpaper2.jpg);
+    background-size: cover;
+    transition: all 2s;
+    border-radius: 15px;
+}
+.awardBorder .wallpaper:nth-child(2):hover
+{
+    transform: scale(1.5);
+}
+.awardBorder .wallpaper:nth-child(3)
+{
+    background-image: url(/Assets/images/wallpaper3.jpg);
+    background-size: cover;
+    transition: all 2s;
+    border-radius: 15px;
+}
+.awardBorder .wallpaper:nth-child(3):hover
+{
+    transform: scale(1.5);
+}
+.awardBorder .wallpaper:nth-child(4)
+{
+    background-image: url(/Assets/images/wallpaper4.jpg);
+    background-size: cover;
+    transition: all 2s;
+    border-radius: 15px;
+}
+.awardBorder .wallpaper:nth-child(4):hover
+{
+    transform: scale(1.5);
+}
